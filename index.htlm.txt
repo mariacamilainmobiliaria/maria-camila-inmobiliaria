@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>María Camila Inmobiliaria</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <img src="Foto perfil.jpg" alt="Logo María Camila Inmobiliaria" class="logo">
+    <h1>María Camila Inmobiliaria</h1>
+    <p>Encuentra tu hogar ideal con nosotros</p>
+  </header>
+
+  <section class="filtros">
+    <h2>Buscar propiedades</h2>
+    <form>
+      <input type="text" placeholder="Ciudad, barrio o dirección">
+      <select>
+        <option value="">Tipo de propiedad</option>
+        <option>Apartamento</option>
+        <option>Casa</option>
+        <option>Lote</option>
+      </select>
+      <select>
+        <option value="">Transacción</option>
+        <option>Venta</option>
+        <option>Arriendo</option>
+      </select>
+      <input type="number" placeholder="Precio mínimo">
+      <input type="number" placeholder="Precio máximo">
+      <button type="submit">Buscar</button>
+    </form>
+  </section>
+
+  <section class="propiedades">
+    <h2>Propiedades destacadas</h2>
+    <div class="propiedad">
+      <img src="fondo.jpg" alt="Propiedad ejemplo">
+      <h3>Casa en Jamundí</h3>
+      <p>Precio: $120.000.000</p>
+      <p>3 habitaciones, 2 baños, patio</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contacto: <a href="mailto:mariacamilainmobiliaria@gmail.com">mariacamilainmobiliaria@gmail.com</a></p>
+    <p>Próximamente enlaces a nuestras redes sociales</p>
+  </footer>
+</body>
+</html>
